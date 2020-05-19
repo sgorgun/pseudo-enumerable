@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoEnumerableTask", "PseudoEnumerableTask\PseudoEnumerableTask.csproj", "{CDA58B1C-9944-4443-B817-9081601FADAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoEnumerableTask.Tests", "PseudoEnumerableTask.Tests\PseudoEnumerableTask.Tests.csproj", "{A9BEE809-4DB1-4D2C-9E0D-E67BD7AF4184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDA58B1C-9944-4443-B817-9081601FADAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA58B1C-9944-4443-B817-9081601FADAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA58B1C-9944-4443-B817-9081601FADAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA58B1C-9944-4443-B817-9081601FADAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BEE809-4DB1-4D2C-9E0D-E67BD7AF4184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BEE809-4DB1-4D2C-9E0D-E67BD7AF4184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BEE809-4DB1-4D2C-9E0D-E67BD7AF4184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BEE809-4DB1-4D2C-9E0D-E67BD7AF4184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
