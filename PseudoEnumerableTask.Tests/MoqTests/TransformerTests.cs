@@ -1,5 +1,5 @@
-﻿using PseudoEnumerableTask.Interfaces;
-using PseudoEnumerableTask.Tests.Adapters;
+using PseudoEnumerableTask.Interfaces;
+using Adapters;
 using Moq;
 using NUnit.Framework;
 
