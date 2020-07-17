@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEEE754FormatTask", "IEEE75
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PseudoEnumerableTask.Tests", "PseudoEnumerableTask.Tests\PseudoEnumerableTask.Tests.csproj", "{C73187AF-CDEC-4DF8-B6D2-74C6496C5B5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapters", "Adapters\Adapters.csproj", "{6E091379-88D5-4B8B-9303-7D97685ACD7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comparers", "Comparers\Comparers.csproj", "{D2A4BB79-1935-4449-8DD7-2B5C66A568C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,5 +42,13 @@ Global
 		{C73187AF-CDEC-4DF8-B6D2-74C6496C5B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C73187AF-CDEC-4DF8-B6D2-74C6496C5B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C73187AF-CDEC-4DF8-B6D2-74C6496C5B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E091379-88D5-4B8B-9303-7D97685ACD7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E091379-88D5-4B8B-9303-7D97685ACD7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E091379-88D5-4B8B-9303-7D97685ACD7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E091379-88D5-4B8B-9303-7D97685ACD7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A4BB79-1935-4449-8DD7-2B5C66A568C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A4BB79-1935-4449-8DD7-2B5C66A568C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A4BB79-1935-4449-8DD7-2B5C66A568C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A4BB79-1935-4449-8DD7-2B5C66A568C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
