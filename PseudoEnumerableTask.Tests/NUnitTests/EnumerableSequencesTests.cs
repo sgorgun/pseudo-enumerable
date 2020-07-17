@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using ContainsDigitPredicate;
 using PseudoEnumerableTask.Interfaces;
-using PseudoEnumerableTask.Tests.Adapters;
-using PseudoEnumerableTask.Tests.Comparers;
+using Adapters;
+using Comparers;
 using NUnit.Framework;
 
 namespace PseudoEnumerableTask.Tests.NUnitTests
