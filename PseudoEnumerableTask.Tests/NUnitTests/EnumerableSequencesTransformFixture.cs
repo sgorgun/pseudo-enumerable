@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Linq;
 using PseudoEnumerableTask.Interfaces;
-using PseudoEnumerableTask.Tests.Adapters;
+using Adapters;
 using NUnit.Framework;
 
 namespace PseudoEnumerableTask.Tests.NUnitTests
