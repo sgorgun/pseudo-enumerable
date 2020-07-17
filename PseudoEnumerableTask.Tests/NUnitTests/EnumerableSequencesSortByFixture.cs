@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using PseudoEnumerableTask.Tests.Comparers;
+using Comparers;
 using NUnit.Framework;
 
 namespace PseudoEnumerableTask.Tests.NUnitTests
