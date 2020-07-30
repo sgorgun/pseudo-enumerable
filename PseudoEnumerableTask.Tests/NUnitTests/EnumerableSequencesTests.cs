@@ -32,6 +32,7 @@ namespace PseudoEnumerableTask.Tests.NUnitTests
                     .Returns(new[] {-123, 123, 2202, 5402, 287});
             }
         }
+
         private static IEnumerable<TestCaseData> TransformerTestCases
         {
             get
@@ -61,6 +62,7 @@ namespace PseudoEnumerableTask.Tests.NUnitTests
                     });
             }
         }
+        
         private static IEnumerable<TestCaseData> SortByTestCases
         {
             get
