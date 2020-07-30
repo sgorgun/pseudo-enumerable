@@ -79,19 +79,19 @@ namespace PseudoEnumerableTask.Tests.NUnitTests
         [TestCaseSource(nameof(TransformerTestCases))]
         public string[] TransformerTests(ITransformer<double, string> transformer, double[] source)
         {
-            return source.Transform(transformer);
+            return source.Transform(transformer).ToArray();
         }
         
         [TestCaseSource(nameof(SortByTestCases))]
         public string[] SortByTests(IComparer<string> comparer, string[] source)
         {
-            return source.SortBy(comparer);
+            return source.SortBy(comparer).ToArray();
         }
         
         [TestCaseSource(nameof(FilterTestCases))]
         public int[] FilterByTests(IPredicate<int> predicate, int[] source)
         {
-            return source.Filter(predicate);
+            return source.Filter(predicate).ToArray();
         }
     }
 }
