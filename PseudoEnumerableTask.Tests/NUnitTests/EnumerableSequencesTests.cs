@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using ContainsDigitPredicate;
 using PseudoEnumerableTask.Interfaces;
 using Adapters;
