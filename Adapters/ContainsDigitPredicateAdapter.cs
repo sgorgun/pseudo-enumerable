@@ -5,14 +5,14 @@ namespace Adapters
 {
     public class ContainsDigitContainsDigitValidatorAdapter : IPredicate<int>
     {
-        //TODO: Add necessary code and remove this comment.
+        private readonly ContainsDigitValidator _validator;
         public ContainsDigitContainsDigitValidatorAdapter(ContainsDigitValidator validator)
         {
-            throw new System.NotImplementedException();
+            this._validator = validator;
         }
         public bool Verify(int obj)
         {
-            throw new System.NotImplementedException();
+            return _validator.Verify(obj);
         }
     }
 }

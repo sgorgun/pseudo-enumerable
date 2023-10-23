@@ -5,6 +5,6 @@ namespace Comparers
 {
     public class StringByLengthComparer : IComparer<string>
     {
-        public int Compare(string x, string y) => throw new NotImplementedException();
+        public int Compare(string x, string y) => x?.Length.CompareTo(y?.Length) ?? -1;
     }
 }
