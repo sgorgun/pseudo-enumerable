@@ -1,3 +1,4 @@
+#pragma warning disable S2234
 using PseudoEnumerableTask.Interfaces;
 using Adapters;
 using Moq;

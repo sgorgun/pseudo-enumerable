@@ -1,4 +1,5 @@
-﻿using IEEE754FormatTask;
+﻿#pragma warning disable S101
+using IEEE754FormatTask;
 using PseudoEnumerableTask.Interfaces;
 
 namespace Adapters
