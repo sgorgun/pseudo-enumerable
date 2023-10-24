@@ -202,29 +202,17 @@ namespace PseudoEnumerableTask
         /// <typeparam name="T">The type of parameters.</typeparam>
         /// <param name="source">Initial data for conversion.</param>
         /// <returns>Array</returns>
-        internal static T[] ToArray<T>(IEnumerable<T> source)
+        internal static TSource[] ToArray<TSource>(IEnumerable<TSource> source)
         {
-            if (source is T[] sourceArray)
-            {
-                T[] array = new T[sourceArray.Length];
-                Array.Copy(sourceArray, array, sourceArray.Length);
-                return array;
-            }
+            TSource[] array = Array.Empty<TSource>();
 
-            T[] tempArray = new T[2];
-            int count = 0;
             foreach (var item in source)
             {
-                if (count == tempArray.Length)
-                {
-                    Array.Resize(ref tempArray, tempArray.Length * 2);
-                }
-
-                tempArray[count++] = item;
+                Array.Resize(ref array, array.Length + 1);
+                array[^1] = item;
             }
 
-            Array.Resize(ref tempArray, count);
-            return count == 0 ? Array.Empty<T>() : tempArray;
+            return array;
         }
     }
 }
